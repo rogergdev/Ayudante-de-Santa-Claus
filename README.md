@@ -74,7 +74,7 @@ WorkingDirectory=/usr/local/bin
 Environment="PATH=/usr/bin:/usr/local/bin"
 Restart=always
 RestartSec=5
-User=tranquilamami
+User=TU_USUARIO
 
 [Install]
 WantedBy=multi-user.target
