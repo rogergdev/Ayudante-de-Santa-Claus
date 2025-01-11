@@ -162,9 +162,9 @@ async def obtener_temperatura():
 
 async def estado_discos():
     rutas = [
-        "/media/tranquilamami/Disco1", 
-        "/media/tranquilamami/Disco3", 
-        "/media/tranquilamami/Disco4", 
+        "/media/roger/Disco1", 
+        "/media/roger/Disco3", 
+        "/media/roger/Disco4", 
         "/mnt/D10TB"
     ]
     resultado = []
