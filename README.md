@@ -92,7 +92,10 @@ sudo systemctl enable ayudante_de_santa.service
 ```bash
 sudo systemctl start ayudante_de_santa.service
 ```
-
+### 6️⃣ Comprobar que el servicio está funcionando
+```bash
+sudo systemctl start ayudante_de_santa.service
+```
 ---
 
 ## 📋 Comandos disponibles en el bot
@@ -123,12 +126,6 @@ El bot lee el archivo de log generado por el proceso de transcodificación.
 - **Ruta del log**: `~/codeccrusher_logs/transcode.log`
 
 ---
-
-## 🔧 Comprobación del servicio
-Verifica que el servicio esté activo:
-```bash
-sudo systemctl status ayudante_de_santa.service
-```
 
 Ver los logs del servicio en tiempo real:
 ```bash
